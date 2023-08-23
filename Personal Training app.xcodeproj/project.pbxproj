@@ -41,6 +41,9 @@
 		A09976E52A960F3100445BD4 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A09976E42A960F3100445BD4 /* FirebaseRemoteConfigSwift */; };
 		A09976E72A960F3100445BD4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A09976E62A960F3100445BD4 /* FirebaseStorage */; };
 		A09976E92A960F3100445BD4 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A09976E82A960F3100445BD4 /* FirebaseStorageCombine-Community */; };
+		A09976EB2A96158A00445BD4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09976EA2A96158A00445BD4 /* ChatViewController.swift */; };
+		A09976EE2A9615EF00445BD4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09976ED2A9615EF00445BD4 /* ProfileViewController.swift */; };
+		A09976F02A96181E00445BD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09976EF2A96181E00445BD4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		A08932D32A6EC3C100C2903F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A08932D52A6EC3C100C2903F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09976B12A960EC100445BD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A09976EA2A96158A00445BD4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A09976ED2A9615EF00445BD4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A09976EF2A96181E00445BD4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +121,24 @@
 			children = (
 				A08932C72A6EC3BF00C2903F /* AppDelegate.swift */,
 				A08932C92A6EC3BF00C2903F /* SceneDelegate.swift */,
-				A08932CB2A6EC3BF00C2903F /* ViewController.swift */,
+				A09976EC2A96159700445BD4 /* View */,
 				A08932CD2A6EC3BF00C2903F /* Main.storyboard */,
 				A08932D02A6EC3C100C2903F /* Assets.xcassets */,
 				A08932D22A6EC3C100C2903F /* LaunchScreen.storyboard */,
 				A08932D52A6EC3C100C2903F /* Info.plist */,
+				A09976EF2A96181E00445BD4 /* Constants.swift */,
 			);
 			path = "Personal Training app";
+			sourceTree = "<group>";
+		};
+		A09976EC2A96159700445BD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A08932CB2A6EC3BF00C2903F /* ViewController.swift */,
+				A09976EA2A96158A00445BD4 /* ChatViewController.swift */,
+				A09976ED2A9615EF00445BD4 /* ProfileViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +247,10 @@
 			files = (
 				A08932CC2A6EC3BF00C2903F /* ViewController.swift in Sources */,
 				A08932C82A6EC3BF00C2903F /* AppDelegate.swift in Sources */,
+				A09976EE2A9615EF00445BD4 /* ProfileViewController.swift in Sources */,
+				A09976EB2A96158A00445BD4 /* ChatViewController.swift in Sources */,
 				A08932CA2A6EC3BF00C2903F /* SceneDelegate.swift in Sources */,
+				A09976F02A96181E00445BD4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
